@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructure
 {
-    internal class List<T>
+    internal class List<T>  // 실제로 사용할 때는 자료형을 반드시 지정해야함
     {
         private const int DefaultCapacity = 4;      // 기본값 설정 상수로 해서 누가 바꾸지 못하게함
 
