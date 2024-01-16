@@ -73,6 +73,7 @@ namespace _05._BinarySearchTree
                     return false;
                 }
             }
+            return true;
         }
 
         public bool Remove(T item)
