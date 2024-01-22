@@ -9,7 +9,8 @@ namespace _08._DesignTechnique
     internal class DivideAndConquer
     {
         // 분할정복 : 큰 문제를 작은 문제로 나눠서 푸는 하향식 접근 방식
-        // 분할을 통해서 해결하기 쉬운 작은 문제로 나눔 -> 정복한 후 병합하는 과정
+        // 분할을 통해서 해결하기 쉬운 작은 문제로 나눔(더이상 쪼갤 수 없을 때까지) -> 정복한 후 병합하는 과정
+
 
         // 예시 : 거듭제곱
         int Pow(int x, int n)  // O(logn)의 시간복잡도
@@ -33,5 +34,7 @@ namespace _08._DesignTechnique
             } */
         }
 
+
+        // +) 예시 : 하노이탑
     }
 }
