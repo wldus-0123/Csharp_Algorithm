@@ -43,7 +43,7 @@ namespace _11._ShortesPath
                     }
                 }
 
-                if (next < 0)
+                if (next < 0) // 찾을만한 정점이 없을 때 
                     break;
 
                 
